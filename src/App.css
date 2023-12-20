@@ -1,0 +1,82 @@
+.classimg{
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+
+}
+.container-1{
+  margin-top: 50px;
+}
+
+h2{
+  margin-top: 50px;
+}
+
+.service-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+
+
+}
+.descname{
+  display: block;
+  margin-block-end: 200px;
+
+}
+
+.service-wra{
+  margin-left: 50px;
+  display: grid;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-end:2 ;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.service-wrap > div{
+  margin: 15px;
+  text-align: center;
+  margin-bottom: 6em;
+}
+.benefits-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.benefits-wrap > div {
+  margin: 15px;
+  text-align: center;
+  margin-bottom: 17em;
+}
+
+.descname {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
+
+.wowclass {
+  margin-top: 200px;
+}
